@@ -1,4 +1,5 @@
 <script setup>
+import { ref } from "vue";
 import { Alert, BackButton, ClosingConfirmation, Confirm, Popup } from "vue-tg";
 const isBackButtonVisible = ref(true);
 const isAlert = ref(false);
